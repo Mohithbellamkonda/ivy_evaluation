@@ -1,0 +1,26 @@
+using System;
+using System.IO;
+
+
+namespace filehandiling
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string filepath = @"C:\\Users\\mohith.bellamkonda\\OneDrive - Entain Group\\Documents\\sample1.txt";
+            string file_2 = @"C:\\Users\\mohith.bellamkonda\\OneDrive - Entain Group\\Documents\\cop2.txt";
+            File.Copy(filepath, file_2);
+            Console.WriteLine(File.ReadAllText(file_2));
+            try
+            {
+                File.Move(file_2,@"c:\\users\\mohith.bellamkonda\\Downloads\\move1.txt");
+                Console.WriteLine("Moved");
+            }
+            catch(IOException ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
+    }
+}

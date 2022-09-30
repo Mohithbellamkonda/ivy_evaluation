@@ -1,0 +1,15 @@
+C:\Users\mohith.bellamkonda\source\repos\queue_7\bin\Debug\net6.0\queue_7.exe
+C:\Users\mohith.bellamkonda\source\repos\queue_7\bin\Debug\net6.0\queue_7.deps.json
+C:\Users\mohith.bellamkonda\source\repos\queue_7\bin\Debug\net6.0\queue_7.runtimeconfig.json
+C:\Users\mohith.bellamkonda\source\repos\queue_7\bin\Debug\net6.0\queue_7.dll
+C:\Users\mohith.bellamkonda\source\repos\queue_7\bin\Debug\net6.0\queue_7.pdb
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.csproj.AssemblyReference.cache
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.AssemblyInfoInputs.cache
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.AssemblyInfo.cs
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.csproj.CoreCompileInputs.cache
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.dll
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\refint\queue_7.dll
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.pdb
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\queue_7.genruntimeconfig.cache
+C:\Users\mohith.bellamkonda\source\repos\queue_7\obj\Debug\net6.0\ref\queue_7.dll

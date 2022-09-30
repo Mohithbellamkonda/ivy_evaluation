@@ -1,0 +1,45 @@
+namespace evaluation_4
+{
+    public abstract class Bird
+    {
+        public string name;
+        public void set_name(string name1)
+        {
+            name = name1;
+    
+        }
+        
+        public string get_name()
+        {
+            return name;
+        }
+        
+        public void fly()
+        {
+            Console.WriteLine(name+" "+ "flying");
+        }
+        public abstract void eat();
+    }
+
+    class crow : Bird
+    {
+        public override void eat()
+        {
+            Console.WriteLine("{0} is eating ",name);
+        }
+    }
+    
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            crow crow = new crow();
+            crow.set_name("mangalia_crow");
+            Console.WriteLine(crow.get_name());
+            crow.fly();
+            crow.eat();
+           
+            
+        }
+    }
+}

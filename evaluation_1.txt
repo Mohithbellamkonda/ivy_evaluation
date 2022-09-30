@@ -1,0 +1,34 @@
+
+using System.Linq;
+namespace evaluation_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter size of an array");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int[] b = new int[a];
+            Console.WriteLine("enter elements of an array");
+            for (int i = 0; i < a; i++)
+            {
+                b[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("max of given array");
+            Console.WriteLine(b.Max());
+            Console.WriteLine("min of given array");
+            Console.WriteLine(b.Min());
+
+
+
+
+
+
+        }
+   
+    
+    
+    
+    
+    }
+}

@@ -1,0 +1,39 @@
+namespace evaluation_3
+{
+    interface ivehicle
+    {
+        void drive();
+        bool refuel(int rem);
+    }
+    class car : ivehicle
+    {
+        public int car_starting;
+        public int rem;
+        public void drive()
+        {
+            Console.WriteLine("car drive status"+"-"+refuel(rem));
+
+        }
+        public bool refuel(int rem)
+        {
+            if (car_starting - rem > 20)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+          car car = new car();
+            car.car_starting = 90;
+            car.rem = 72;
+            car.drive();
+        }
+    }
+}
